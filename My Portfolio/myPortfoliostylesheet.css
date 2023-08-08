@@ -1,0 +1,706 @@
+.dropbtn{
+    display:none;
+}
+.dropbtn {
+    background-color:rgb(25, 21, 97);
+    font-family:font-family 'Fira Sans', sans-serif;
+    color: white;
+    padding: 12px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .dropbtn:hover, .dropbtn:focus {
+    border: 1px solid green;
+  }
+  
+  .dropdown {
+    position: relative;
+    display: inline-block;
+  }
+  
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    min-width: 160px;
+    overflow: auto;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  
+  .dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+  }
+  
+  .dropdown a:hover {background-color: #ddd;}
+  
+  .show {display: block;}
+.navbar{
+    background-color: rgb(25, 21, 97);
+    padding: 20px;
+    
+    
+}
+.navbar a{
+    text-decoration: none;
+    color:inherit;
+}
+.maincontent{
+    display:flex;
+    align-items: center;
+    
+}
+.footerNavbar{
+    display:none;
+}
+.verticalNavbar ul{
+    list-style: none;
+    position: fixed;
+}
+.verticalNavbar li{
+    display:block;
+    
+}
+.verticalNavbar img{
+    width:50px;
+    height:50px;
+    padding-top: 10px;
+    padding-bottom:10px;
+}
+.verticalNavbar a{
+    text-decoration: none;
+    
+}
+.navbar li{
+    color:rgb(255, 255, 255);
+    display: inline;
+    font-size: larger;
+    font-family: 'PT Sans', sans-serif;
+    padding:15px;
+    
+}
+.navbar ul li:not(.nohover):hover {
+    border:1.5px solid green;
+}
+
+
+#name{
+    font-family: 'Fira Sans', sans-serif;
+    text-decoration: none;
+    font-size: x-large;
+    color: rgb(255, 255, 255);
+    text-transform: capitalize;
+    padding-left: 0px;
+    padding-right: 350px;
+}
+.verticalNavbar ul li a img:hover{
+    transform: scale(1.5);
+}
+.logocontainer {
+    display:flex;
+    align-items: center;
+    flex-direction: row;
+    
+}
+#animation {
+    display:none;
+}
+.helloworld {
+    display: flex;
+    padding-left:700px;
+    align-items: center;
+    font-family: 'Fira Sans', sans-serif;
+    font-size: 24px;
+}
+
+#mylogo{
+    padding-left: 200px;
+    display: inline-block;
+    width: 100px; 
+    height: 100px;
+    position: absolute;
+    animation-name: logoanimation;
+    animation-duration: 6s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease;
+}
+@keyframes logoanimation {
+    from {left: 0px;}
+    to {left: 200px;}
+  }
+.myphoto img{
+    flex: 1;
+    padding-left: 80px;
+    border-radius: 50%;
+    width:350px;
+    height:350px;
+
+}
+.aboutme-container{
+    display:flex;
+    padding-top: 80px;
+}
+.aboutme-container-2{
+    display:none;
+}
+.aboutme{
+    flex: 1;
+    padding-left: 105px;
+    max-width: 600px;
+}
+.aboutme h1{
+    font-family:'PT Sans', sans-serif ;
+    color: rgb(7, 7, 69);
+}
+.aboutme p{
+    font-family: 'Noto Serif Vithkuqi', serif;
+    color: rgb(0, 0, 0);
+    text-align: justify;
+}
+.skills h1{
+    font-family: 'Noto Serif Vithkuqi', serif;
+    color:rgb(7,7,69);
+    text-align: center;
+    text-transform: capitalize;
+    padding-top: 60px;
+    padding-left:10px;
+}
+.skill-container{
+    
+    margin-left: 300px;
+}
+.skill-container ul li{
+    list-style: none;
+    font-family:'PT Sans', sans-serif ;
+}
+.skill-container ol li{
+    list-style:square;
+    font-family:'PT Sans', sans-serif ;
+}
+.softskills {
+    border: 3px;
+    border-style:solid;
+    border-color: #028069;
+    padding:10px 13px 10px 12px;
+    width: 380px;
+    margin-bottom: 30px;
+    margin-left: 80px;
+}
+.softskills:hover{
+    box-shadow: 0 0 10px rgba(44, 60, 69, 0.8); 
+    background-color: rgb(110, 200, 242);
+}
+.programminglanguage {
+    border: 3px;
+    border-style:solid;
+    border-color: #028069;
+    padding:10px 13px 10px 12px;
+    width: 380px;
+    margin-bottom: 30px;
+    margin-left: 80px;
+}
+.programminglanguage:hover{
+    box-shadow: 0 0 10px rgba(44, 60, 69, 0.8); 
+    background-color: rgb(110, 200, 242);
+}
+.webdevelopment{
+    border: 3px;
+    border-style:solid;
+    border-color: #028069;
+    padding:10px 13px 10px 12px;
+    width: 380px;
+    margin-bottom: 30px;
+    margin-left: 80px;
+}
+.webdevelopment:hover{
+    box-shadow: 0 0 10px rgba(44, 60, 69, 0.8); 
+    background-color: rgb(110, 200, 242);
+}
+.office{
+    border: 3px;
+    border-style:solid;
+    border-color: #028069;
+    padding:10px 13px 10px 12px;
+    width: 380px;
+    margin-bottom: 30px;
+    margin-left: 80px;
+}
+.office:hover{
+    box-shadow: 0 0 10px rgba(44, 60, 69, 0.8); 
+    background-color: rgb(110, 200, 242);
+}
+.language{
+    border: 3px;
+    border-style:solid;
+    border-color: #028069;
+    padding:10px 13px 10px 12px;
+    width: 380px;
+    margin-bottom: 30px;
+    margin-left: 80px;
+}
+.language:hover{
+    box-shadow: 0 0 10px rgba(44, 60, 69, 0.8); 
+    background-color: rgb(110, 200, 242);
+}
+.Projects h1{
+    font-family:'Noto Serif Vithkuqi', serif;
+    padding-left: 30px;
+    color:rgb(7,7,69);
+    
+
+}
+.Projects {
+    margin-left:115px;
+    margin-bottom: 50px;
+}
+.item-1{
+   font-family: 'PT Sans', sans-serif;
+    margin-top:50px;
+    
+}
+.item-1 img:hover{
+    transform: scale(1.1);
+    border:1.5px solid green;
+}
+
+.item-1 img{
+    display:inline;
+    width:500px;
+    height:350px;
+
+}
+#img-2{
+    padding-left:20px;
+}
+.item-2{
+    font-family: 'PT Sans', sans-serif;
+     margin-top:50px;
+     
+ }
+ .item-2 img:hover{
+     transform: scale(1.1);
+     border:1.5px solid green;
+ }
+ 
+ .item-2 img{
+     display:inline;
+     width:500px;
+     height:350px;
+ 
+ }
+ #img-3{
+     padding-left:20px;
+ }
+ .item-3{
+    font-family: 'PT Sans', sans-serif;
+     margin-top:50px;
+     
+ }
+ .item-3 img:hover{
+     transform: scale(1.1);
+     border:1.5px solid green;
+ }
+ 
+ .item-3 img{
+     display:inline;
+     width:500px;
+     height:300px;
+ 
+ }
+ #img-4{
+     padding-left:20px;
+ }
+.education{
+    padding-left: 315px;
+}
+.education h1{
+    margin-left: 90px;
+    color: rgb(7,7,69);
+}
+.education ul{
+    margin-left: 90px;
+    border-left: 3px solid rgb(7,7,69);
+    list-style: none;
+    
+
+}
+.education ul li {
+    font-family: 'Noto Serif Vithkuqi', serif;
+    font-size: larger;
+}
+.education ul li p{
+    font-size: medium;
+    padding-left: 37px;
+    color: rgb(1, 59, 86);
+}
+.material-symbols-outlined {
+    vertical-align: middle;
+    padding-right:15px;
+    font-variation-settings:
+    'FILL' 0,
+    'wght' 400,
+    'GRAD' 0,
+    'opsz' 48
+  }
+  .contact{
+    display:flex;
+  }
+  .contact-options{
+    flex: 1;
+    padding: 20px; 
+    margin-left: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    
+
+  }
+  .contact-options p{
+    font-family: 'Noto Serif Vithkuqi', serif;
+    color: rgb(0, 0, 0);
+    text-align:start;
+    padding-left: 5px;
+}
+.contact-options h1{
+    font-family: 'Noto Serif Vithkuqi', serif;
+    color:rgb(7,7,69);
+    text-transform: capitalize;
+    padding-top: 0px;
+    padding-left: 5px;
+    
+}
+.myemail{
+    flex:1;
+    display: flex;
+    align-items: center;
+    margin-left: 125px;
+    font-family: 'PT Sans', sans-serif ;
+    color:rgb(7,7,69);
+    font-size: small;
+    
+}
+
+.myemail:hover h2{
+    text-decoration: underline;
+  
+}
+footer{
+    background-color: rgb(25, 21, 97);
+    padding:20px;
+}
+footer h4{
+    font-family:'Noto Serif Vithkuqi', serif;
+    color:antiquewhite;
+    text-align: center;
+}
+@media (max-width: 768px) 
+{
+    .navbar ul {
+        display: none; 
+      }
+    
+      .dropbtn {
+        display: block; 
+      }
+      .verticalNavbar{
+        display:none;
+      }
+      .footerNavbar{
+        display:flex;
+        align-items: center;
+      }
+      .footerNavbar ul {
+        display: flex;
+        list-style: none;
+        
+      }
+      .footerNavbar ul li{
+        list-style: none;;
+            padding: 20;
+            margin-left: 50px;
+ 
+       
+      }
+      .footerNavbar img{
+        width:50px;
+        height:50px;
+        padding-top: 10px;
+        padding-bottom:10px;
+    }
+    .footerNavbar ul li a img:hover{
+        transform: scale(1.5);
+    }
+    .logoitem{
+        display:none;
+    }
+    .helloworld{
+        display:none;
+    }
+    .logocontainer figure{
+       font-family:'Noto Serif Vithkuqi', serif;
+       display:contents;
+    }
+  
+    #animation{
+        margin-top: 150px;
+        padding-left: 10px;
+        display: block;
+        width: 100px; 
+        height: 80px;
+        position: absolute;
+        animation-name: animation;
+        animation-duration: 6s;
+        animation-iteration-count: infinite;
+        animation-timing-function: ease;
+    }
+    @keyframes animation {
+        from {left: 0px;}
+        to {left: 200px;}
+      }
+      .aboutme-container{
+        display: none;
+      }
+      .mypic img{
+        padding-left: 80px;
+        border-radius: 50%;
+        width:350px;
+        height:350px;
+    
+    }
+    .aboutme-container-2{
+        display:block;
+        padding-top: 280px;
+    }
+    .aboutme2{
+       
+        padding-left: 10px;
+        max-width: 600px;
+    }
+    .mypic h1{
+        font-family:'PT Sans', sans-serif ;
+        color: rgb(7, 7, 69);
+        padding-left: 10px;
+    }
+    .aboutme2 p{
+        font-family: 'Noto Serif Vithkuqi', serif;
+        color: rgb(0, 0, 0);
+        text-align: justify;
+    }
+    .skill-container{
+    
+        margin-left: 2px;
+    }
+    .skill-container ul li{
+        list-style: none;
+        font-family:'PT Sans', sans-serif ;
+    }
+    .skill-container ol li{
+        list-style:square;
+        font-family:'PT Sans', sans-serif ;
+    }
+    .softskills {
+        border: 3px;
+        border-style:solid;
+        border-color: #028069;
+        padding:10px 13px 10px 12px;
+        width: 380px;
+        margin-bottom: 30px;
+        margin-left: 5px;
+    }
+    .softskills:hover{
+        box-shadow: 0 0 10px rgba(44, 60, 69, 0.8); 
+        background-color: rgb(110, 200, 242);
+    }
+    .programminglanguage {
+        border: 3px;
+        border-style:solid;
+        border-color: #028069;
+        padding:10px 13px 10px 12px;
+        width: 380px;
+        margin-bottom: 30px;
+        margin-left: 5px;
+    }
+    .programminglanguage:hover{
+        box-shadow: 0 0 10px rgba(44, 60, 69, 0.8); 
+        background-color: rgb(110, 200, 242);
+    }
+    .webdevelopment{
+        border: 3px;
+        border-style:solid;
+        border-color: #028069;
+        padding:10px 13px 10px 12px;
+        width: 380px;
+        margin-bottom: 30px;
+        margin-left:5px;
+    }
+    .webdevelopment:hover{
+        box-shadow: 0 0 10px rgba(44, 60, 69, 0.8); 
+        background-color: rgb(110, 200, 242);
+    }
+    .office{
+        border: 3px;
+        border-style:solid;
+        border-color: #028069;
+        padding:10px 13px 10px 12px;
+        width: 380px;
+        margin-bottom: 30px;
+        margin-left: 5px;
+    }
+    .office:hover{
+        box-shadow: 0 0 10px rgba(44, 60, 69, 0.8); 
+        background-color: rgb(110, 200, 242);
+    }
+    .language{
+        border: 3px;
+        border-style:solid;
+        border-color: #028069;
+        padding:10px 13px 10px 12px;
+        width: 380px;
+        margin-bottom: 30px;
+        margin-left: 5px;
+    }
+    .language:hover{
+        box-shadow: 0 0 10px rgba(44, 60, 69, 0.8); 
+        background-color: rgb(110, 200, 242);
+    }
+    .Projects h1{
+        font-family:'Noto Serif Vithkuqi', serif;
+        padding-left: 10px;
+        color:rgb(7,7,69);
+        
+    
+    }
+    .Projects {
+        margin-left:5px;
+        margin-bottom: 50px;
+    }
+    .item-1{
+       font-family: 'PT Sans', sans-serif;
+        margin-top:50px;
+        
+    }
+    .item-1 img:hover{
+        transform: scale(1.1);
+        border:1.5px solid green;
+    }
+    
+    .item-1 img{
+        display:inline;
+        width:400px;
+        height:300px;
+    
+    }
+    #img-2{
+        padding-left:2px;
+    }
+    .item-2{
+        font-family: 'PT Sans', sans-serif;
+         margin-top:50px;
+         
+     }
+     .item-2 img:hover{
+         transform: scale(1.1);
+         border:1.5px solid green;
+     }
+     
+     .item-2 img{
+         display:inline;
+         width:400px;
+        height:300px;
+     
+     }
+     #img-3{
+         padding-left:2px;
+     }
+     .item-3{
+        font-family: 'PT Sans', sans-serif;
+         margin-top:50px;
+         
+     }
+     .item-3 img:hover{
+         transform: scale(1.1);
+         border:1.5px solid green;
+     }
+     
+     .item-3 img{
+         display:inline;
+         width:400px;
+         height:300px;
+     
+     }
+     #img-4{
+         padding-left:5px;
+     }
+    .education{
+        padding-left: 5px;
+    }
+    .education h1{
+        margin-left: 10px;
+        color: rgb(7,7,69);
+    }
+    .education ul{
+        margin-left: 10px;
+        border-left: 3px solid rgb(7,7,69);
+        list-style: none;
+        
+    
+    }
+    .education ul li {
+        font-family: 'Noto Serif Vithkuqi', serif;
+        font-size: larger;
+    }
+    .education ul li p{
+        font-size: medium;
+        padding-left: 37px;
+        color: rgb(1, 59, 86);
+    }
+    .contact{
+        display:block;
+      }
+      .contact-options{
+        flex: 1;
+        padding: 20px; 
+        margin-left: 5px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+        
+    
+      }
+      .contact-options p{
+        font-family: 'Noto Serif Vithkuqi', serif;
+        color: rgb(0, 0, 0);
+        text-align:start;
+        padding-left: 5px;
+    }
+    .contact-options h1{
+        font-family: 'Noto Serif Vithkuqi', serif;
+        color:rgb(7,7,69);
+        text-transform: capitalize;
+        padding-top: 0px;
+        padding-left: 5px;
+        
+    }
+    .myemail{
+        flex:1;
+        display: flex;
+        align-items: center;
+        margin-left: 40px;
+        font-family: 'PT Sans', sans-serif ;
+        color:rgb(7,7,69);
+        font-size: small;
+        
+    }
+    
+    .myemail:hover h2{
+        text-decoration: underline;
+      
+    }
+}
