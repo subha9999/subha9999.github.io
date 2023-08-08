@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="en">
+    <header>
+        <title>Subha</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="styles.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0" />
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0" />
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fira+Sans:ital@1&family=Noto+Serif+Vithkuqi:wght@600&family=PT+Sans&display=swap" rel="stylesheet">
+    </header>
+    <body>
+
+<script>
+
+function myFunction() {
+  document.getElementById("myDropdown").classList.toggle("show");
+}
+
+window.onclick = function(event) {
+  if (!event.target.matches('.dropbtn')) {
+    var dropdowns = document.getElementsByClassName("dropdown-content");
+    var i;
+    for (i = 0; i < dropdowns.length; i++) {
+      var openDropdown = dropdowns[i];
+      if (openDropdown.classList.contains('show')) {
+        openDropdown.classList.remove('show');
+      }
+    }
+  }
+}
+</script>
+        <nav class="navbar" id="main-content">
+            <div class="dropdown">
+                <button onclick="myFunction()" class="dropbtn"><span class="material-symbols-outlined">
+                    list
+                    </span></button>
+                <div id="myDropdown" class="dropdown-content">
+                  <a href="#main-content">Home</a>
+                  <a href="#skill-section">Skills</a>
+                  <a href="#project">Projects</a>
+                  <a href="#contactme">Contact</a>
+                  <a href="subha9999.github.io/Resume/Mahmuda_Nizam(Resume).pdf">Resume</a>
+                </div>
+              </div>
+            <ul>
+                <li class="nohover"><span id="name">Mahmuda Nizam Subha</span></li>
+                <li><a href="#main-content">Home</a></li>
+                <li><a href="#about-me-section">About</a></li>
+                <li><a href="#skill-section">Skills</a></li>
+                <li><a href="#project">Project</a></li>
+                <li><a href="#contactme">Contact</a></li>
+                <li >
+                    <a href="subha9999.github.io/Resume/Mahmuda_Nizam(Resume).pdf" ><span id="resume">Resume</span></a> 
+                </li>
+            </ul>
+        </nav>
+        <div class="maincontent">
+        <nav class="verticalNavbar">
+            <ul>
+                <li><a href="https://github.com/subha9999"><img src="https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png"></a></li>
+                <li><a href="https://www.linkedin.com/in/mahmuda-nizam-b2a15a199/"><img src="https://cdn1.iconfinder.com/data/icons/logotypes/32/circle-linkedin-512.png"></a></li>
+                <li><a href="https://www.hackerrank.com/mahmudanizamsub1?hr_r=1"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAOEAAADhCAMAAAAJbSJIAAAAWlBMVEUNFB4A6mT///8AAAANEh4NABwA62QNABoADBgEDhoNABg0OD8ImkgA72YFv1UnLDIAABC4ubvCw8Xv7/AAAAj29vaPkZOcnaAAABIKdjsHnkmztLW+v8ESGSLs8eGCAAAA/0lEQVR4nO3cOQ7CMBBAUcDsENaEnftfkwYapkEWCsR6r80U/nIVR3GvBwAAAAAAAAAAAAAAAAAAANCeYZ62ljdLm3d1nKrDUJq9no0yTVoKvDeDd4eQmI5haH96BZ6rfo7xpZ3E6SKsfbBNoXAXp9bPTZxcqnGOajXvSuEybw8VKlSoUKFChQoVKlSoUKFChQoVKlSoUOHvC68puJVV2OyD+HGj04WfUahQoUKFChUqVKhQoUKFCrteWP47fvnnNOWftSlUqFChQoUKFSpUqFChQoUKFSpUqFChwqzCP/8fv/w7Fcq/F+Mb/vxuEwAAAAAAAAAAAAAAAAAAAKDTHoDCYDr8qkOBAAAAAElFTkSuQmCC">
+                </a></li>
+            </ul>
+        </nav>
+        <div class="logocontainer">
+           <div class="logoitem" ><span id="mylogo">
+                <img src="data:image/png;base64,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">
+        </span>
+        <div class="helloworld"><h1>Hello World!</h1></div>
+    </div>
+        <span id="animation">
+        <img 
+        src="data:image/png;base64,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">
+    </span>
+    </div>
+    </div>
+    <div class="allabout me" >
+    <div class="aboutme-container">
+        <div class="aboutme" id="about-me-section">
+            <h1>Meet an Aspiring Software Engineer</h1>
+            <p>Hello there! I'm Mahmuda Nizam Subha, a Bengali girl aspiring to become a software engineer. 
+        Currently, I am pursuing a Bachelor of Science in Computer Science at Independent University, Bangladesh.
+        My journey into the world of programming began during my freshman year, and since then, I've been captivated by the endless possibilities of technology. 
+        Alongside my studies, I am actively involved in various extracurricular activities. 
+        Presently, I hold the position of General Secretary at IEEE Computer Society IUB Student Branch.
+         When I'm not coding, you'll find me immersed in books, seeking knowledge and inspiration.
+        Recently, I engaged in research work on AI-based software testing, contributing to a literature review-based research paper.
+         I'm currently in my 11th semester, constantly honing my skills and exploring the fascinating world of tech.
+            </p>
+        </div>
+        <div class="myphoto">
+            <img src="https://media.licdn.com/dms/image/D5603AQEGAaAYn9yCoQ/profile-displayphoto-shrink_400_400/0/1683787115056?e=1696464000&v=beta&t=Au8WzDY0j3ww-3COiuR4uYxTqD13XtATUYA0lQSOV6Q">
+        </div>
+    </div>
+    <div class="aboutme-container-2" >
+        <div class="mypic" >
+            <img src="https://media.licdn.com/dms/image/D5603AQEGAaAYn9yCoQ/profile-displayphoto-shrink_400_400/0/1683787115056?e=1696464000&v=beta&t=Au8WzDY0j3ww-3COiuR4uYxTqD13XtATUYA0lQSOV6Q">
+        </div>
+        <div class="aboutme2">
+            
+            <p>Hello there! I'm Mahmuda Nizam Subha, a Bengali girl aspiring to become a software engineer. 
+        Currently, I am pursuing a Bachelor of Science in Computer Science at Independent University, Bangladesh.
+        My journey into the world of programming began during my freshman year, and since then, I've been captivated by the endless possibilities of technology. 
+        Alongside my studies, I am actively involved in various extracurricular activities. 
+        Presently, I hold the position of General Secretary at IEEE Computer Society IUB Student Branch.
+         When I'm not coding, you'll find me immersed in books, seeking knowledge and inspiration.
+        Recently, I engaged in research work on AI-based software testing, contributing to a literature review-based research paper.
+         I'm currently in my 11th semester, constantly honing my skills and exploring the fascinating world of tech.
+            </p>
+        </div>
+    </div>
+</div>
+    <div class="skills">
+        <h1 id="skill-section">My Skills</h1>
+        <div class="skill-container">
+           <ul>
+        <div class="softskills">
+            <li><b>Soft Skills:</b> Communication,Team Work,Problem Solving,Leadership</li>
+        </div>
+        <div class="programminglanguage">
+            <li><b>Programming Languages:</b> C++,SQL,Java,php</li>
+        </div>
+        <div class="webdevelopment">
+            <li><b>Web Development:</b> HTML,CSS,Java Script</li>
+        </div>
+        <div class="office">
+            <li><b>Office & Productivity:</b>
+                <ol>
+                    <li>Document Formatting: LaTeX </li>
+                    <li>Microsoft Office Suite: Word, Excel, PowerPoint</li>
+                    <li>Google Workspace: Docs, Sheets, Slides</li>
+                    <li>Note-taking: OneNote</li>
+                    <li>Communication: Discord</li>
+                </ol>
+            </li>
+        </div>
+        <div class="language">
+            <li><b>Language:</b> English,Bangla</li>
+        </div>
+           </ul>
+           
+        </div>
+    </div>
+    <div class="Projects" id="project">
+        <h1>Project</h1>
+        <div class="item-1">
+           <figure> <img src="https://raw.githubusercontent.com/subha9999/Student-Performance-Monitoring-System-/main/Screenshots/Picture4.png">
+            <span id="img-2"><img src="https://raw.githubusercontent.com/subha9999/Student-Performance-Monitoring-System-/main/Screenshots/Picture5.png"></span>
+            <figcaption><h4>Student Performance Monitoring System</h4>
+                <ul>
+                    <li>Developed a dynamic web application using HTML, CSS,
+                JavaScript, SQL, and PHP as part of coursework.</li>
+                    <li> Implemented features for managing student records,
+                course enrollment, and grade tracking.</li>
+                    <li> Utilized PHP for server‑side processing and SQL for database
+                management, ensuring data integrity and security.</li>
+            </ul>
+        </figcaption>
+        </figure>
+        </div>
+        <div class="item-2">
+            <figure> <img src="https://raw.githubusercontent.com/subha9999/OOP-Chain-Diagnostic-Center/main/Project%20Screenshots/Screenshot%202023-08-06%20205350.png">
+                <span id="img-3"><img src="https://raw.githubusercontent.com/subha9999/OOP-Chain-Diagnostic-Center/main/Project%20Screenshots/Screenshot%202023-08-06%20211044.png"></span>
+             <figcaption><h4>Chain Diagnostic Management System</h4>
+                <ul>
+                    <li>Developed a robust diagnostic management system as a Java
+                application for academic coursework.</li>
+                <li> Utilized Java programming to create a user‑friendly interface for
+                managing diagnostic chains and patient records.</li>
+            </ul>
+            </figcaption>
+         </figure>
+         </div>
+         <div class="item-3">
+            <figure> <img src="https://raw.githubusercontent.com/subha9999/Air-Quality-Monitoring-System/main/Screenshot/statusbar.png">
+                <span id="img-4"><img src="https://raw.githubusercontent.com/subha9999/Air-Quality-Monitoring-System/main/Screenshot/divisionwiseairquality.png"></span>
+             <figcaption><h4>Air Quality Monitoring System</h4>
+                <ul>
+                    <li>Designed and implemented an interactive web‐based application using
+                        HTML, CSS, JavaScript, SQL, and Django for academic coursework.</li>
+                <li>Developed a real‐time air quality monitoring
+                    platform with features like data visualization and historical analysis.</li>
+            </ul>
+            </figcaption>
+         </figure>
+         </div>
+    </div>
+    <div class="education">
+        <h1>Education</h1>
+        <ul>
+            <li><span class="material-symbols-outlined">school</span>Bachelor of Science in Computer Science<p>2020-ongoing</p><p>Independent University,Bangladesh</p></li>
+            <li><span class="material-symbols-outlined">school</span>O Levels<p>2016-2017</p><p>British Council</p></li>
+            <li><span class="material-symbols-outlined">school</span>A Levels<p>2017-2019</p><p>Brighton School and College</p></li>
+        </ul>
+    </div>
+    <div class="contact">
+    <div class="contact-options" id="contactme">
+        <h1>Get in touch with me</h1>
+        <p>I'd love to hear from you. 
+            Whether you have a question, a project you'd like to discuss, or just want to say hello,
+             feel free to reach out using the contact options below. You can drop me an email or connect with me on LinkedIn.
+             I'm excited to connect and explore potential collaborations or simply engage in a meaningful conversation.
+             Looking forward to connecting with you soon!</p>
+             </div>
+      <div class="myemail">
+        <span class="material-symbols-outlined">
+            mail
+            </span><h2>mahmudanizamsubha@gmail.com</h2>
+      </div>
+      </div>
+      <footer>
+        <h4>Mahmuda Nizam Subha © 2023</h4>
+        <nav class="footerNavbar">
+            <ul>
+                <li><a href="https://github.com/subha9999"><img src="https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png"></a></li>
+                <li><a href="https://www.linkedin.com/in/mahmuda-nizam-b2a15a199/"><img src="https://cdn1.iconfinder.com/data/icons/logotypes/32/circle-linkedin-512.png"></a></li>
+                <li><a href="https://www.hackerrank.com/mahmudanizamsub1?hr_r=1"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAOEAAADhCAMAAAAJbSJIAAAAWlBMVEUNFB4A6mT///8AAAANEh4NABwA62QNABoADBgEDhoNABg0OD8ImkgA72YFv1UnLDIAABC4ubvCw8Xv7/AAAAj29vaPkZOcnaAAABIKdjsHnkmztLW+v8ESGSLs8eGCAAAA/0lEQVR4nO3cOQ7CMBBAUcDsENaEnftfkwYapkEWCsR6r80U/nIVR3GvBwAAAAAAAAAAAAAAAAAAANCeYZ62ljdLm3d1nKrDUJq9no0yTVoKvDeDd4eQmI5haH96BZ6rfo7xpZ3E6SKsfbBNoXAXp9bPTZxcqnGOajXvSuEybw8VKlSoUKFChQoVKlSoUKFChQoVKlSoUOHvC68puJVV2OyD+HGj04WfUahQoUKFChUqVKhQoUKFCrteWP47fvnnNOWftSlUqFChQoUKFSpUqFChQoUKFSpUqFChwqzCP/8fv/w7Fcq/F+Mb/vxuEwAAAAAAAAAAAAAAAAAAAKDTHoDCYDr8qkOBAAAAAElFTkSuQmCC">
+                </a></li>
+            </ul>
+        </nav>
+      </footer>
+      
+    
+
+
+    </body>
+</html>
